@@ -1,1 +1,1 @@
-# codingStudyPlaydata
+# 플레이데이터 데이터 엔지니어링 21기 코딩 스터디

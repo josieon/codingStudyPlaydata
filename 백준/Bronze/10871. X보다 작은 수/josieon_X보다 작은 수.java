@@ -7,6 +7,7 @@ public class Main{
         int N = Integer.parseInt(st.nextToken()), X = Integer.parseInt(st.nextToken());
         st =new StringTokenizer(br.readLine());
         StringBuilder sb = new StringBuilder();
+        // 값 받아옴과 동시에 비교 수행, 바로 출력
         while(st.hasMoreTokens()){
             int target = Integer.parseInt(st.nextToken());
             if(target < X)

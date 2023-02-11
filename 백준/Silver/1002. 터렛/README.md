@@ -4,7 +4,7 @@
 
 ### 성능 요약
 
-메모리: 14380 KB, 시간: 124 ms
+메모리: 33376 KB, 시간: 56 ms
 
 ### 분류
 
@@ -24,7 +24,7 @@
 
  <p>첫째 줄에 테스트 케이스의 개수 T가 주어진다. 각 테스트 케이스는 다음과 같이 이루어져 있다.</p>
 
-<p>한 줄에 x<sub>1</sub>, y<sub>1</sub>, r<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub>, r<sub>2</sub>가 주어진다. x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub>는 -10,000보다 크거나 같고, 10,000보다 작거나 같은 정수이고, r<sub>1</sub>, r<sub>2</sub>는 10,000보다 작거나 같은 자연수이다.</p>
+<p>한 줄에 x<sub>1</sub>, y<sub>1</sub>, r<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub>, r<sub>2</sub>가 주어진다. x<sub>1</sub>, y<sub>1</sub>, x<sub>2</sub>, y<sub>2</sub>는 -10,000보다 크거나 같고, 10,000보다 작거나 같은 정수이고, r<sub>1</sub>, r<sub>2</sub>는 10,000보다 작거나 같은 음이 아닌 정수이다.</p>
 
 ### 출력 
 

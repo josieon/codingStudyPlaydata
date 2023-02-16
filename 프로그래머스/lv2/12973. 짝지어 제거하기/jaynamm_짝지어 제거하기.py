@@ -1,18 +1,16 @@
 def solution(s):
     answer = -1
+    stack = []
     
-    stk = []
-    ap = list(s)
-    
-    for i in range(len(ap)):
-        if len(stk) == 0:
-            stk.append(ap[i])
-        elif stk[-1] == ap[i]:
-            stk.pop()
+    for c in s:
+        if not(stack):
+            stack.append(c)
+        elif stack[-1] == c:
+            stack.pop()
         else:
-            stk.append(ap[i])
+            stack.append(c)
             
-    if len(stk) == 0:
+    if not(stack):
         answer = 1
     else:
         answer = 0

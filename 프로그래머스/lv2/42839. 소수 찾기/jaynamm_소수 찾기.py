@@ -17,7 +17,7 @@ def solution(numbers):
     
     tmp = [int("".join(n)) for n in nums]
     
-    for t in list(set(tmp)):
+    for t in set(tmp):
         if is_prime(t):
             answer += 1
     

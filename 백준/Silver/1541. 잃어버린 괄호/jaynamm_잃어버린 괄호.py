@@ -1,8 +1,7 @@
-exp = str(input())
-exp_list = list(map(str, exp.split("-")))
+exp = input().split("-")
 res = []
 
-for e in exp_list:
+for e in exp:
     tmp = sum(list((map(int, e.split("+")))))
     res.append(tmp)
     

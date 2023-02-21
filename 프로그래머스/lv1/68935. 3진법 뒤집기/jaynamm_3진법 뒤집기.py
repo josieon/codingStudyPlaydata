@@ -5,7 +5,7 @@ def solution(n):
     while n != 0:
         spn = n % 3
         spl_num.append(spn)
-        n = n // 3
+        n //= 3
     
     spl_num = spl_num[::-1]
     

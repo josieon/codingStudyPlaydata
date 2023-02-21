@@ -1,5 +1,3 @@
-from collections import Counter
-
 def solution(X, Y):
     answer = ''
     xc = [0] * 10
